@@ -36,7 +36,7 @@ NYC_img = mpimg.imread('new_york.jpg')
 col2.image(NYC_img)
 
 
-url = 'https://taxifare-v7n7mb57hq-ew.a.run.app/predict'
+url = 'https://taxifare.lewagon.ai/predict'
 
 params = {
     'pickup_datetime': pickup_datetime,
