@@ -51,3 +51,9 @@ response = requests.get(url, params).json()
 
 if st.button("Calculate"):
     st.write('Your estimated fare is', round(response['fare'], 2), '$')
+
+    st.write('')
+    st.write('Yeah! Time for some shopping!')
+
+    shopping_img = mpimg.imread('shopping.jpg')
+    st.image(shopping_img)
